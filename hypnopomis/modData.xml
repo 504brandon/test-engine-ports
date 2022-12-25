@@ -1,0 +1,8 @@
+<!DOCTYPE test-engine-modData>
+<mod titleBarName="Friday Night Funkin' - Test Engine - Hypnos lullaby port" charXmlPaths="data/chars/hypno | data/chars/gf-lullaby | data/chars/glitchy-red | data/chars/glitchy-bf">
+	<week name="hypnos lullaby" image="idk" songs="Safety-lullaby, Isotope" songPaths="safety-lullaby, isotope" icons="hypno, glitchy-red" diffs="Hard">
+		<char path="campaign_menu_UI_characters" idle="Dad" xOffset="20" yOffset="100" scale="0.5"/>
+		<char default="gf"/>
+		<char default="bf"/>
+	</week>
+</mod>

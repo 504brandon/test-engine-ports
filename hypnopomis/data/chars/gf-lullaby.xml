@@ -1,0 +1,14 @@
+<!DOCTYPE test-engine-charList>
+<char name="gf-lullaby" spriteImage="Hypno Girlfriend" iconImage="lullabygffunni" offsets="52,232.4" camOffsets="0,53.2" flipX="true" singDur="3.8" regCharType="bf" hpColor="A5004C">
+    <animData name="idle" prefix="gf_idle_not_hypno_2s instance 1" looped="false" fps="24" offsets="-5,0"/>
+
+    <animData name="singLEFT" prefix="gf_left_alt i" looped="false" fps="24" offsets="72,-23"/>
+    <animData name="singDOWN" prefix="gf_down i" looped="false" fps="24" offsets="-15,-124"/>
+    <animData name="singUP" prefix="gf_up i" looped="false" fps="24" offsets="-26,47"/>
+    <animData name="singRIGHT" prefix="gf_right_better i" looped="false" fps="24" offsets="-7,-43"/>
+
+    <animData name="singLEFTmiss" prefix="gf_left_alt i" looped="false" fps="24" offsets="71,23"/>
+    <animData name="singDOWNmiss" prefix="gf_down_MISS i" looped="false" fps="24" offsets="-15,-136"/>
+    <animData name="singUPmiss" prefix="gf_up_MISS i" looped="false" fps="24" offsets="-38,47"/>
+    <animData name="singRIGHTmiss" prefix="gf_right_better_miss i" looped="false" fps="24" offsets="0,-61"/>
+</char>

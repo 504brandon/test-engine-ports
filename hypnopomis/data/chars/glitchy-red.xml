@@ -1,0 +1,9 @@
+<!DOCTYPE test-engine-charList>
+<char name="glitchy-red" spriteImage="Glitchy_Red_Assets_elpepe" iconImage="glitchy-red" offsets="634,0" camOffsets="-520.2,0" flipX="false" singDur="3.2" regCharType="dad" hpColor="255,0,70">
+    <animData name="idle" prefix="RedIdle" looped="false" fps="24" offsets="0,0"/>
+
+    <animData name="singLEFT" prefix="RedL" looped="false" fps="24" offsets="107, 8"/>
+    <animData name="singDOWN" prefix="RedD" looped="false" fps="24" offsets="3,-12"/>
+    <animData name="singUP" prefix="RedU" looped="false" fps="24" offsets="84,27"/>
+    <animData name="singRIGHT" prefix="RedR" looped="false" fps="24" offsets="-57,23"/>
+</char>

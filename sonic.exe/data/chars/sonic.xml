@@ -1,0 +1,9 @@
+<!DOCTYPE test-engine-charList>
+<char name="sonic" spriteImage="sonic" iconImage="sonic" offsets="-324.2,-340" camOffsets="0,210" flipX="false" singDur="3.4" regCharType="dad" hpColor="11, 68, 255">
+    <animData name="idle" prefix="sonic i" looped="false" fps="24" offsets="0,0"/>
+
+    <animData name="singLEFT" prefix="sonic left0" looped="false" fps="24" offsets="-1,-1"/>
+    <animData name="singDOWN" prefix="sonic down0" looped="false" fps="24" offsets="120,-20"/>
+    <animData name="singUP" prefix="sonic up0" looped="false" fps="24" offsets="-6,34"/>
+    <animData name="singRIGHT" prefix="sonic right0" looped="false" fps="24" offsets="-59,24"/>
+</char>

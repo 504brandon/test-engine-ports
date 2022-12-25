@@ -1,0 +1,9 @@
+<!DOCTYPE test-engine-charList>
+<char name="hypno" spriteImage="Hypno Phase 1 Sheet" iconImage="hypno" offsets="-43.2,76.2" camOffsets="0,52.3" flipX="false" singDur="3.2" regCharType="dad" hpColor="F9DF44">
+    <animData name="idle" prefix="Hypno I" looped="false" fps="24" offsets="0,0"/>
+
+    <animData name="singLEFT" prefix="Hypno L" looped="false" fps="24" offsets="111,12"/>
+    <animData name="singDOWN" prefix="Final Hypno D" looped="false" fps="24" offsets="-120,-100"/>
+    <animData name="singUP" prefix="Hypno U" looped="false" fps="24" offsets="-76,190"/>
+    <animData name="singRIGHT" prefix="Hypno R" looped="false" fps="24" offsets="-240,57"/>
+</char>

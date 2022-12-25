@@ -1,0 +1,11 @@
+<!DOCTYPE test-engine-charList>
+<char name="sonicexe" spriteImage="sonicexe" iconImage="sonicexe" offsets="0,0" camOffsets="0,0" flipX="false" singDur="6.1" regCharType="dad" hpColor="0058B7">
+    <animData name="idle" prefix="SONICmoveI" looped="false" fps="24" offsets="0,0"/>
+
+    <animData name="singLEFT" prefix="SONICmoveL" looped="false" fps="24" offsets="51,30"/>
+    <animData name="singDOWN" prefix="SONICmoveD" looped="false" fps="24" offsets="74,-98"/>
+    <animData name="singUP" prefix="SONICmoveU" looped="false" fps="24" offsets="94,95"/>
+    <animData name="singRIGHT" prefix="SONICmoveR" looped="false" fps="24" offsets="-50,54"/>
+
+    <animData name="singDOWN-alt" prefix="SONICl" looped="false" fps="24" offsets="25,40"/>
+</char>

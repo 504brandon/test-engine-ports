@@ -1,0 +1,14 @@
+<!DOCTYPE test-engine-charList>
+<char name="glitchy-bf" spriteImage="Boyfriend_Isotope" iconImage="bf" offsets="-843.2,432.5" camOffsets="-320,-212.4" flipX="true" singDur="4.7" regCharType="bf" hpColor="49,176,209" scale="0.9">
+    <animData name="idle" prefix="Bf Idle Dance" looped="false" fps="24" offsets="-5,0"/>
+
+    <animData name="singLEFT" prefix="boyfriend left" looped="false" fps="24" offsets="175,-4"/>
+    <animData name="singDOWN" prefix="boyfriend down" looped="false" fps="24" offsets="50,-20"/>
+    <animData name="singUP" prefix="boyfriend up" looped="false" fps="24" offsets="100,140"/>
+    <animData name="singRIGHT" prefix="boyfriend right" looped="false" fps="24" offsets="20,52"/>
+
+    <animData name="singLEFTmiss" prefix="boyfriend lef miss" looped="false" fps="24" offsets="410,160"/>
+    <animData name="singDOWNmiss" prefix="boyfriend dow miss" looped="false" fps="24" offsets="80,110"/>
+    <animData name="singUPmiss" prefix="boyfriend u miss" looped="false" fps="24" offsets="224,317"/>
+    <animData name="singRIGHTmiss" prefix="boyfriend righ miss" looped="false" fps="24" offsets="70,180"/>
+</char>
