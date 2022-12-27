@@ -1,0 +1,12 @@
+<!DOCTYPE test-engine-charList>
+<char name="ycr-mad" spriteImage="YCR_Mad" iconImage="ycr-mad" offsets="0,-27" camOffsets="0,-10" flipX="false" singDur="3.4" regCharType="dad" hpColor="160D87">
+    <animData name="idle" prefix="mad_i" looped="false" fps="24" offsets="0,0"/>
+
+    <animData name="singLEFT" prefix="mad_l" looped="false" fps="24" offsets="111,-86"/>
+    <animData name="singDOWN" prefix="mad_d" looped="false" fps="24" offsets="60,-123"/>
+    <animData name="singUP" prefix="mad_u" looped="false" fps="24" offsets="-4,140"/>
+    <animData name="singRIGHT" prefix="mad_r" looped="false" fps="24" offsets="40,-86"/>
+
+   <animData name="singDOWN-alt" prefix="laugh" looped="false" fps="24" offsets="29,-125"/>
+   <animData name="scream" prefix="scream" looped="false" fps="24" offsets="285,-77"/>
+</char>

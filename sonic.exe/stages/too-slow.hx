@@ -1,5 +1,8 @@
  function createPost(){
-    defaultCamZoom = 0.65;
+    var fgTrees = new FlxSprite(-610, -200, Files.image('PolishedP1/TreesFG'));
+    fgTrees.setGraphicSize(Std.int(fgTrees.width * 1.45));
+    fgTrees.scrollFactor.set(1.1, 1.1);
+    add(fgTrees);
 
     boyfriend.regX = 512.4;
     boyfriend.regY = 10.4;
@@ -11,11 +14,6 @@
     dad.regX = -203.5;
     dad.regY = 121.4;
     }
-
-    var fgTrees = new FlxSprite(-610, -200, Files.image('PolishedP1/TreesFG'));
-    fgTrees.setGraphicSize(Std.int(fgTrees.width * 1.45));
-    fgTrees.scrollFactor.set(1.1, 1.1);
-    add(fgTrees);
  }
  
  function create() {

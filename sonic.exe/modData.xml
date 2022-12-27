@@ -1,5 +1,5 @@
 <!DOCTYPE test-engine-modData>
-<mod titleBarName="Friday Night Funkin' - Test Engine - sonic.exe" charXmlPaths="data/chars/sonicexe | data/chars/sonic | data/chars/ycr">
+<mod titleBarName="Friday Night Funkin' - Test Engine - sonic.exe" charXmlPaths="data/chars/sonicexe | data/chars/sonic | data/chars/ycr | data/chars/ycr-mad">
 	<week name="round1" image="week1" songs="Too-slow, You-cant-run..., Prey, Burning" songPaths="too-slow, you-cant-run, prey, burning" icons="sonicexe, ycr, furnace, burning-sonic" diffs="Encore, Hard">
 		<char path="campaign_menu_UI_characters" idle="Dad" xOffset="20" yOffset="100" scale="0.5"/>
 		<char default="gf"/>
