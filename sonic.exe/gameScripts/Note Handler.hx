@@ -4,6 +4,7 @@ function noteCreate(params) {
 	  	params.spritePath = "notes/STATICNOTE_assets";
 	 case 'Phantom Note':
 		params.spritePath = "notes/PHANTOMNOTE_assets";
+		params.canMiss = false;
 }
 }
 
