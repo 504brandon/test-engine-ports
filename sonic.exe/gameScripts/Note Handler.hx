@@ -21,7 +21,5 @@ function dadNoteHit(params) {
 	switch (params.jsonData[3]){
 	 case 'No Animation':
 		dad.dance();
-	case 'Phantom Note':
-		dad.dance();
 	}
 }
