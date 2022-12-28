@@ -8275,7 +8275,7 @@
 		"song": "too-slow-encore",
 		"arrowSkin": "",
 		"stage": "too-slow",
-		"needsVoices": true,
+		"needsVoices": false,
 		"validScore": true,
 		"bpm": 135,
 		"speed": 2.7

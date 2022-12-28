@@ -46,13 +46,16 @@ function update(){
         case 527:
             greenhillzone.visible = true;
             treesfront.visible = false;
-            /*dad.loadCharacter('ycrpixel');
+            dad.loadCharacter('ycrpixel');
             boyfriend.loadCharacter('bfpixel');
-            */
+            gf.kill();
+            defaultCamZoom = 0.82;
         case 782:
             greenhillzone.visible = false;
             treesfront.visible = true;
             dad.loadCharacter('ycr-mad');
+            gf.revive();
+            defaultCamZoom = 0.64;
     }
 }
 

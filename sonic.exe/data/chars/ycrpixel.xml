@@ -1,0 +1,9 @@
+<!DOCTYPE test-engine-charList>
+<char name="ycrpixel" spriteImage="ycrpixelohhhellno" iconImage="pixelsonicycr" offsets="0,54.7" camOffsets="-10,-83" flipX="false" singDur="2.5" scale="12" antialiasing="false" regCharType="dad" hpColor="175,102,206">
+    <animData name="idle" prefix="Sonic_EXE_Pixel i" looped="false" fps="24" offsets="0,0"/>
+
+    <animData name="singLEFT" prefix="Sonic_EXE_Pixel Sonic_EXE_Pixel NOTE L" looped="false" fps="24" offsets="-6-1"/>
+    <animData name="singDOWN" prefix="Sonic_EXE_Pixel Sonic_EXE_Pixel NOTE D" looped="false" fps="24" offsets="0,-2"/>
+    <animData name="singUP" prefix="Sonic_EXE_Pixel NOTE U" looped="false" fps="24" offsets="0,-2"/>
+    <animData name="singRIGHT" prefix="Sonic_EXE_Pixel NOTE RIGHT" looped="false" fps="24" offsets="0,0"/>
+</char>
