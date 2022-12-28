@@ -53,6 +53,7 @@ function update(){
         case 782:
             greenhillzone.visible = false;
             treesfront.visible = true;
+            boyfriend.loadCharacter('bf');
             dad.loadCharacter('ycr-mad');
             gf.revive();
             defaultCamZoom = 0.64;
