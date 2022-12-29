@@ -10,7 +10,7 @@
     gf.regX = 96.2;
     gf.regY = -9.2;
 
-    if (PlayState.SONG.song.toLowerCase() == 'too-slow'){
+    if (PlayState.SONG.player2.toLowerCase() == 'sonicexe'){
     dad.regX = -203.5;
     dad.regY = 121.4;
     }
@@ -83,19 +83,4 @@
     var deadtailz2:FlxSprite = new FlxSprite(-600, -400, Files.image('stages/tooslow-forest/DeadTails2'));
     deadtailz2.setGraphicSize(Std.int(deadtailz2.width * 1.4));
     add(deadtailz2);
-}
-
-function update() {
-    if (PlayState.SONG.song.toLowerCase() == 'too-slow-encore'){
-        switch (curStep) {
-            case 384:
-                FlxG.camera.visible = false;
-            case 400:
-                FlxG.camera.visible = true;
-                dad.loadCharacter("sonicexe");
-                iconP2.changeIcon('sonicexe');
-                dad.regX = -203.5;
-                dad.regY = 121.4;
-        }
-    }
 }

@@ -1,4 +1,5 @@
 import flixel.addons.display.FlxGridOverlay;
+import handlers.Conductor;
 
 var goofyahhmode:Bool = false;
 
@@ -16,7 +17,6 @@ function update(elapsed) {
     
     if (goofyahhmode){
     if (curStep > 141 && curStep < 814){
-        trace('they really do be runnin');
         boyfriend.regX -= elapsed / -52 - 10;
         boyfriend.regY -= 0.00000000001;
         boyfriend.flipX = true;

@@ -11,7 +11,7 @@ function noteCreate(params) {
 function bfNoteHit(params) {
 	switch (params.jsonData[3]){
 	 case 'No Animation':
-		boyfreind.dance();
+		boyfriend.dance();
 	case 'Phantom Note':
 		noteMiss();
 	}
