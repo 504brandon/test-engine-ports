@@ -1,0 +1,9 @@
+<!DOCTYPE test-engine-charList>
+<char name="majin" spriteImage="SonicFunAssets" iconImage="majin" offsets="0,0" camOffsets="0,86.5" flipX="false" singDur="3.6" scale="1.04" regCharType="dad" hpColor="0000D7">
+    <animData name="idle" prefix="SONICFUNI" looped="false" fps="24" offsets="0,0"/>
+
+    <animData name="singLEFT" prefix="SONICFUNL" looped="false" fps="24" offsets="331,-130"/>
+    <animData name="singDOWN" prefix="SONICFUND" looped="false" fps="24" offsets="91,-173"/>
+    <animData name="singUP" prefix="SONICFUNU" looped="false" fps="24" offsets="83,13"/>
+    <animData name="singRIGHT" prefix="SONICFUNR" looped="false" fps="24" offsets="60,-73"/>
+</char>

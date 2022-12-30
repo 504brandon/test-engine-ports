@@ -1,0 +1,12 @@
+<!DOCTYPE test-engine-charList>
+<char name="ycr" spriteImage="YCR" iconImage="ycr" offsets="0,0" camOffsets="0,-10" flipX="false" singDur="3.4" regCharType="dad" hpColor="160D87">
+    <animData name="idle" prefix="normal_i" looped="false" fps="24" offsets="0,0"/>
+
+    <animData name="singLEFT" prefix="normal_l" looped="false" fps="24" offsets="105,-103"/>
+    <animData name="singDOWN" prefix="normal_d" looped="false" fps="24" offsets="60,-100"/>
+    <animData name="singUP" prefix="normal_u" looped="false" fps="24" offsets="-6,50"/>
+    <animData name="singRIGHT" prefix="normal_r" looped="false" fps="24" offsets="40,-116"/>
+
+   <animData name="singDOWN-alt" prefix="laugh" looped="false" fps="24" offsets="29,-139"/>
+   <animData name="scream" prefix="scream" looped="false" fps="24" offsets="285,-90"/>
+</char>

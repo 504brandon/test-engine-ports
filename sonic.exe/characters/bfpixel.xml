@@ -1,0 +1,13 @@
+<char name="bfpixel" spriteImage="boigairwiyupickle" iconImage="bf-pixel" offsets="276,214.7" camOffsets="532.5,-32" scale="8.99999999999999" flipX="true" singDur="2.10" regCharType="bf" hpColor="123,214,246" antialiasing="false">
+    <animData name="idle" prefix="BF i" looped="false" fps="24" offsets="7,0"/>
+
+    <animData name="singLEFT" prefix="BF NOTE LEFT0" looped="false" fps="24" offsets="10,-9"/>
+    <animData name="singDOWN" prefix="BF NOTE DOWN0" looped="false" fps="24" offsets="10,-10"/>
+    <animData name="singUP" prefix="BF NOTE UP0" looped="false" fps="24" offsets="-9,-9"/>
+    <animData name="singRIGHT" prefix="BF NOTE RIGHT0" looped="false" fps="24" offsets="-11,-10"/>
+
+    <animData name="singLEFTmiss" prefix="BF NOTE LEFT M" looped="false" fps="24" offsets="-11,-9"/>
+    <animData name="singDOWNmiss" prefix="BF NOTE DOWN M" looped="false" fps="24" offsets="-10,-10"/>
+    <animData name="singUPmiss" prefix="BF NOTE UP M" looped="false" fps="24" offsets="-10,-10"/>
+    <animData name="singRIGHTmiss" prefix="BF NOTE RIGHT M" looped="false" fps="24" offsets="-10,-10"/>
+</char>
