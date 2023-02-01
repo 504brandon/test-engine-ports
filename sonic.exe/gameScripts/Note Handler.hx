@@ -44,7 +44,7 @@ function triggerEvent(name:String, value1:String, value2:String) {
 		CoolRedThing.screenCenter();
 		add(CoolRedThing);
 		FlxTween.tween(CoolRedThing, {alpha: 1}, 3, {onComplete: function() {
-			FlxTween.tween(CoolRedThing, {alpha: 0}, 0.56);
+			FlxTween.tween(CoolRedThing, {alpha: 0}, 0.34);
 		}});
 	 case 'TooSlowFlashinShit':
 		trace('unfinnished');

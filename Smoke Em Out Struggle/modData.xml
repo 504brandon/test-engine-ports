@@ -1,0 +1,8 @@
+<!DOCTYPE test-engine-modData>
+<mod titleBarName="Friday Night Funkin' - Test Engine Smoke Em Out Struggle" charXmlPaths="characters/garcello | characters/garcellotired | characters/garcellodead | characters/garcelloghosty | characters/bf">
+	<week name="SMOKE 'EM OUT STRUGGLE" image="week1" songs="Headache, Nerves, Release, Fading" songPaths="headache, nerves, release, fading" icons="garcello, garcellotired, garcellodead, garcellodead" diffs="Easy, Normal, Hard">
+		<char path="campaign_menu_UI_characters" idle="Dad" xOffset="20" yOffset="100" scale="0.5"/>
+		<char default="gf"/>
+		<char default="bf"/>
+	</week>
+</mod>

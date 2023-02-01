@@ -1,5 +1,8 @@
+import flixel.util.FlxTimer;
+
 var textTitle:FlxSprite;
-var bf:FlxSprite;
+var bg:FlxSprite;
+var enter1:Bool;
 
 function createPost() {
 	bg = new FlxSprite(0, 0);
@@ -32,6 +35,16 @@ function createPost() {
 }
 
 function updatePost() {
-	if (controls.ACCEPT)
-		textTitle.animation.play('press', true);
+	if (controls.ACCEPT) {
+		if (!enter1)
+			textTitle.animation.play('press');
+
+		enter1 = true;
+
+		new FlxTimer().start(2, function(tmr:FlxTimer) {
+			{
+				FlxG.switchState(new states.menus.MainMenuState());
+			}
+		});
+	}
 }

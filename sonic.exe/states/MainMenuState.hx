@@ -17,6 +17,20 @@ function createBellowItems() {
 	add(bg2);
 }
 
+function update(elapsed) {
+	if (controls.ACCEPT) {
+		var daChoice:String = optionShit[curSelected];
+
+		switch (daChoice) {
+			case 'sound test':
+				CoolUtil.switchToCustomState('SoundTestingTestAhhTataHeInside');
+				trace('better not be null');
+			case 'encore', 'extras':
+				FlxG.switchState(new states.menus.FreeplayState());
+		}
+	}
+}
+
 function updatePost(elapsed) {
 	if (FlxG.keys.justPressed.TAB)
 		CoolUtil.switchToCustomState('teststate');

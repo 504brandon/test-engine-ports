@@ -8714,7 +8714,7 @@
 		"events": [],
 		"player3": "gf",
 		"song": "you-cant-run-encore",
-		"needsVoices": false,
+		"needsVoices": true,
 		"stage": "cant-run-xd",
 		"arrowSkin": "",
 		"validScore": true,

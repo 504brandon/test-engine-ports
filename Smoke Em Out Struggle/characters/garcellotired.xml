@@ -1,0 +1,14 @@
+<!DOCTYPE test-engine-charList>
+<char name="garcellotired" spriteImage="garcellotired_assets" iconImage="garcellotired" offsets="0,0" camOffsets="0,0" flipX="false" singDur="3.2" regCharType="garcellotired" hpColor="175,102,206">
+    <animData name="idle" prefix="garcellotired idle" looped="false" fps="24" offsets="0,0"/>
+
+    <animData name="singLEFT" prefix="garcellotired Sing Note L" looped="false" fps="24" offsets="0,0"/>
+    <animData name="singDOWN" prefix="garcellotired Sing Note D" looped="false" fps="24" offsets="0,0"/>
+    <animData name="singUP" prefix="garcellotired Sing Note U" looped="false" fps="24" offsets="0,0"/>
+    <animData name="singRIGHT" prefix="garcellotired Sing Note R" looped="false" fps="24" offsets="0,0"/>
+
+    <animData name="singLEFT-alt" prefix="garcellotired Sing Note L" looped="false" fps="24" offsets="0,0"/>
+    <animData name="singDOWN-alt" prefix="garcellotired c" looped="false" fps="24" offsets="0,0"/>
+    <animData name="singUP-alt" prefix="garcellotired Sing Note U" looped="false" fps="24" offsets="0,0"/>
+    <animData name="singRIGHT-alt" prefix="garcellotired Sing Note R" looped="false" fps="24" offsets="0,0"/>
+</char>

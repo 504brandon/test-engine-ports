@@ -1,0 +1,21 @@
+<!DOCTYPE test-engine-charList>
+<char name="bf" spriteImage="BOYFRIEND" iconImage="bf" offsets="0,350" camOffsets="0,0" flipX="true" singDur="4" regCharType="bf" hpColor="66FF33">
+    <animData name="idle" prefix="BF idle d" looped="false" fps="24" offsets="-5,0"/>
+
+    <animData name="singLEFT" prefix="BF NOTE LEFT0" looped="false" fps="24" offsets="5,-6"/>
+    <animData name="singDOWN" prefix="BF NOTE DOWN0" looped="false" fps="24" offsets="-20,-51"/>
+    <animData name="singUP" prefix="BF NOTE UP0" looped="false" fps="24" offsets="-46,27"/>
+    <animData name="singRIGHT" prefix="BF NOTE RIGHT0" looped="false" fps="24" offsets="-45,-9"/>
+
+    <animData name="singLEFTmiss" prefix="BF NOTE LEFT M" looped="false" fps="24" offsets="7,19"/>
+    <animData name="singDOWNmiss" prefix="BF NOTE DOWN M" looped="false" fps="24" offsets="-15,-19"/>
+    <animData name="singUPmiss" prefix="BF NOTE UP M" looped="false" fps="24" offsets="-46,27"/>
+    <animData name="singRIGHTmiss" prefix="BF NOTE RIGHT M" looped="false" fps="24" offsets="-44,22"/>
+
+    <animData name="hey" prefix="BF HEY" looped="false" fps="24" offsets="-3,5"/>
+    <animData name="hurt" prefix="BF hit" looped="false" fps="24" offsets="14,18"/>
+    <animData name="dodge" prefix="boyfriend d" looped="false" fps="24" offsets="-10,-16"/>
+    <animData name="scared" prefix="BF idle s" looped="true" fps="24" offsets="-4,0"/>
+    <animData name="attack" prefix="boyfriend a" looped="false" fps="24" offsets="294,267"/>
+    <animData name="pre-attack" prefix="bf pre" looped="false" fps="24" offsets="-40,-40"/>
+</char>

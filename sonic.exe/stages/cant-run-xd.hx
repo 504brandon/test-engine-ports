@@ -32,6 +32,7 @@ function create() {
 
     greenhillzone = new FlxSprite(-428.5 + 50 + 700, -449.35 + 25 + 392 + 105 + 50, Files.image("stages/you-cant-run-you-dum-fard/GreenHill"));
     greenhillzone.visible = false;
+    greenhillzone.antialiasing = false;
     greenhillzone.scrollFactor.set(1, 1);
     greenhillzone.scale.x = 8;
     greenhillzone.scale.y = 8;
@@ -39,19 +40,21 @@ function create() {
 }
 
 function update(){
-    switch (curStep){
-        case 527:
-            greenhillzone.visible = true;
-            treesfront.visible = false;
-        case 782:
-            greenhillzone.visible = false;
-            treesfront.visible = true;
+    if (PlayState.SONG.song == 'you-cant-run' || PlayState.SONG.song == 'you-cant-run-encore'){
+        switch (curStep){
+            case 527:
+                greenhillzone.visible = true;
+                treesfront.visible = false;
+            case 782:
+                greenhillzone.visible = false;
+                treesfront.visible = true;
+        }
     }
 }
 
 function dadNoteHit() {
-    if (curStep > 781){
-    FlxG.camera.shake(0.0120, 0.0120);
-    camHUD.zoom = 1.3;
+    if (curStep > 781 && PlayState.SONG.song == 'you-cant-run' || PlayState.SONG.song == 'you-cant-run-encore'){
+        FlxG.camera.shake(0.0120, 0.0120);
+        camHUD.zoom = 0.5;
     }
 }

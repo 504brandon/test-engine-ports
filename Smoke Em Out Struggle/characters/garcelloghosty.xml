@@ -1,0 +1,11 @@
+<!DOCTYPE test-engine-charList>
+<char name="garcelloghosty" spriteImage="garcelloghosty_assets" iconImage="garcellodead" offsets="0,0" camOffsets="0,0" flipX="false" singDur="3.2" regCharType="garcello" hpColor="175,102,206">
+    <animData name="idle" prefix="garcello idle" looped="false" fps="24" offsets="0,0"/>
+
+    <animData name="singLEFT" prefix="garcello Sing Note L" looped="false" fps="24" offsets="0,0"/>
+    <animData name="singDOWN" prefix="garcello Sing Note D" looped="false" fps="24" offsets="0,0"/>
+    <animData name="singUP" prefix="garcello Sing Note U" looped="false" fps="24" offsets="0,0"/>
+    <animData name="singRIGHT" prefix="garcello Sing Note R" looped="false" fps="24" offsets="0,0"/>
+
+    <animData name="garFarewell" prefix="garcello c" looped="false" fps="15" offsets="0,0"/>
+</char>

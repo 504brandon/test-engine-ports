@@ -46,7 +46,6 @@ var ChangeSongButton:FlxButton = new FlxButton(charname.x,80, "Change Song", fun
 		vocals.loadEmbedded((Files.song(songname.text +'/Voices')));
 		vocals.play();
 		FlxG.sound.playMusic(Files.song(songname.text +'/Inst'), 1);
-
 	});
 add(ChangeSongButton);
 
@@ -58,8 +57,6 @@ FlxG.camera.follow(camFollow);
 }
 
 function update() {
-	char.dance();
-
 	vocals.time = FlxG.sound.music.time;
 	vocals.volume = FlxG.sound.music.volume;
 
@@ -81,8 +78,10 @@ function update() {
 	if (FlxG.keys.justPressed.SEVEN)
 		FlxG.resetState();
 	
-	if (FlxG.keys.justPressed.ESCAPE)
+	if (FlxG.keys.justPressed.ESCAPE){
 		FlxG.switchState(new MainMenuState());
+		vocals.destroy();
+	}
 
 	if (FlxG.keys.pressed.I || FlxG.keys.pressed.J || FlxG.keys.pressed.K || FlxG.keys.pressed.L)
 		{
@@ -104,4 +103,8 @@ function update() {
 		{
 			camFollow.velocity.set();
 		}
+}
+
+function beatHit() {
+	char.dance();
 }
